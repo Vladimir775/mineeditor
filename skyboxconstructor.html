@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		input[type="file"]{
+			padding: 32px 16px;
+			margin: 8px;
+			background: #ccc;
+		}
+	</style>
+</head>
+<body>
+	<input type="text" id="name" placeholder="name">
+	<br>
+	<label for="px">px // right</label>
+	<input type="file" id="px" >
+	<br>
+	<label for="py">py // top</label>
+	<input type="file" id="py" >
+	<br>
+	<label for="pz">pz // back</label>
+	<input type="file" id="pz" >
+	<br>
+	<label for="nx">nx // left</label>
+	<input type="file" id="nx" >
+	<br>
+	<label for="ny">ny // bottom</label>
+	<input type="file" id="ny" >
+	<br>
+	<label for="nz">nz // front</label>
+	<input type="file" id="nz" >
+	<br>
+	<button onclick="save()">submit</button>
+	<script>
+		const toBase64 = file => new Promise((resolve, reject) => {
+		    const reader = new FileReader();
+		    reader.readAsDataURL(file);
+		    reader.onload = () => resolve(reader.result);
+		    reader.onerror = error => reject(error);
+		});
+
+		async function save(){
+			var mod_obj = {
+			"name" : "'skybox v:0.0.1'",
+			"skybox" : {}
+			}
+
+			mod_obj.name = document.getElementById('name').value;
+
+			// return;
+			mod_obj.skybox.right = await toBase64(document.getElementById('px').files[0]);
+			mod_obj.skybox.top = await toBase64(document.getElementById('py').files[0]);
+			mod_obj.skybox.back = await toBase64(document.getElementById('pz').files[0]);
+			mod_obj.skybox.left = await toBase64(document.getElementById('nx').files[0]);
+			mod_obj.skybox.bottom = await toBase64(document.getElementById('ny').files[0]);
+			mod_obj.skybox.front = await toBase64(document.getElementById('nz').files[0]);
+
+			download(JSON.stringify(mod_obj, null, '\t'),document.getElementById('name').value.replace(/\s/g, '')+'.skybox');
+		}
+
+		function download(data, filename = 'plugin.json') {
+		    var file = new Blob([data], {type: 'plugin.json'});
+		    if (window.navigator.msSaveOrOpenBlob) // IE10+
+		        window.navigator.msSaveOrOpenBlob(file, 'plugin.json');
+		    else { // Others
+		        var a = document.createElement("a"),
+		                url = URL.createObjectURL(file);
+		        a.href = url;
+		        a.download = filename;
+		        document.body.appendChild(a);
+		        a.click();
+		        setTimeout(function() {
+		            document.body.removeChild(a);
+		            window.URL.revokeObjectURL(url);
+		        }, 0);
+		    }
+		}
+	</script>
+</body>
+</html>

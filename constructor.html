@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="js/constructor/constructor.js"></script>
+	<link rel="stylesheet" href="styles/editor.css">
+</head>
+<body>
+	<h1>
+		ATTENTION: ~~~1-texture blocks only~~~
+	</h1>
+	<p>
+		If you are not enough blocks, integrated in the editor, you can create your own pack of blocks, and then connect it
+		<br>
+		<i>Tools --> Include Plugin</i>
+
+		<!--Если вам не хватает блоков, встроенных в редактор, вы можете создать свой пак блоков, после чего подключить его
+		*ПЕРЕВЕСТИ-->
+	</p>
+	<input type="text" id="plugin-name" placeholder="Plugin Name">
+	<label for="plugin-version">plugin version (</label>
+	<input type="text" id="plugin-version" placeholder="Plugin Version" pattern="[0-9]:[0-9]:[0-9]{3}">
+	<ul id="blocklist">
+		<li>
+			<div>
+				<h5>
+					Block Texture
+				</h5>
+				<div class="cc">
+					<input class="img" type="file" accept=".png">
+				</div>
+				<img src="" alt="preview" width="132px" height="132px">
+			</div>
+			<div>
+				Block Name (no spaces)
+				<input type="text" class="name">
+			</div>
+			<div>
+				transparent?
+				<input type="checkbox" class="name">
+			</div>
+			<div>
+				light?
+				<input type="checkbox" class="name">
+			</div>
+			<button onclick="this.parentElement.parentElement.removeChild(this.parentElement)">-</button>
+		</li>
+	</ul>
+	<!-- ul id="scriptlist">
+		<li>
+			<div>
+				<h5>Script</h5>
+			</div>
+			<div>
+				Script Name (no spaces)
+				<input type="text" class="name">
+			</div>
+		</li>
+	</ul> -->
+	<button id="addb" onclick="add()">add block</button>
+	<!-- <button id="addscript" onclick="addscript()">add script</button> -->
+	<button id="save" onclick="save()">save</button>
+
+
+	<script>
+		var li = document.getElementsByClassName('img')
+
+		for (var i = 0; i < li.length; i++) {
+			li[i].oninput = async function(e){
+				// console.log(e);
+				// console.log(e.target.parentElement.getElementsByTagName('img'));
+				var file = e.target.files[0];
+				file = await toBase64(file);
+				e.target.parentElement.parentElement.getElementsByTagName('img')[0].src = file;
+			}
+		}
+
+		function add(){
+			ul = document.getElementById('blocklist');
+			li = document.createElement('li');
+			li.innerHTML +=`
+				<div>
+					<h5>
+						Block Texture
+					</h5>
+					<div class="cc">
+						<input class="img" type="file" accept=".png">
+					</div>
+					<img src="" alt="preview" width="132px" height="132px">
+				</div>
+				<div>
+					Block Name (no spaces)
+					<input type="text" class="name">
+					<div>
+						transparent?
+						<input type="checkbox" class="name">
+					</div>
+					<div>
+						light?
+						<input type="checkbox" class="name">
+					</div>
+				</div>
+				<button onclick="this.parentElement.parentElement.removeChild(this.parentElement)">-</button>
+			`;
+			ul.appendChild(li);
+			var li = document.getElementsByClassName('img')
+
+			for (var i = 0; i < li.length; i++) {
+				li[i].oninput = async function(e){
+					// console.log(e);
+					// console.log(e.target.parentElement.parentElement.getElementsByTagName('img'));
+					var file = e.target.files[0];
+					file = await toBase64(file);
+					e.target.parentElement.parentElement.getElementsByTagName('img')[0].src = file;
+				}
+			}
+		}
+
+
+		var modname = document.getElementById('plugin-name');
+		var modversion = document.getElementById('plugin-version');
+	</script>
+</body>
+</html>

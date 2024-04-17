@@ -1,0 +1,38 @@
+{
+	"name" : "'admin stuff v:0.0.1'",
+	"misc" :{
+		"CMD": "var z = document.createElement('div'); z.className='dropdown'; z.innerHTML= $UI ; z.id='Admin'; document.getElementsByTagName('header')[0].appendChild(z);  var z = document.createElement('a'); z.innerHTML = '<span>VoxelMode</span>'; document.getElementById('FileGeneral').children[1].appendChild(z)",
+		"UI":"'<button class=\"dropbtn\"> Admin </button> <div class=\"dropdown-content\"> <a>Mod List</a>'",
+		"scripts" :{
+			"main" :"document.getElementById('Admin').getElementsByTagName('a')[0].onclick = function(){console.log(ModList)}"
+		},
+		"commands":[
+			{
+				"name": "remove",
+				"args_count":6,
+				"command" : "var args = arguments[0], from = {'x':args[1],'y':args[2],'z':args[3]},to={'x':args[4],'y':args[5],'z':args[6]}; for(var i=0; i< World.map.length; i++){ if((World.map[i].block.position.x >= from.x && World.map[i].block.position.y >= from.y && World.map[i].block.position.z >= from.z) && (World.map[i].block.position.x <= to.x && World.map[i].block.position.y <= to.y && World.map[i].block.position.z <= to.z)){ World.remove(World.map[i].block);scene.remove(World.map[i].block); }  }"
+			},
+			{
+				"name": "set",
+				"args_count": 4,
+				"command": "var args = arguments[0]; for(var i=0; i< World.map.length; i++){ if(World.map[i].block.position.equals(new THREE.Vector3(args[1],args[2],args[3]) ) ){scene.remove(World.map[i].block); World.remove(World.map[i].block);} } scene.add(World.generate(args[1],args[2],args[3], args[4]));"
+			},
+			{
+				"name": "fill",
+				"args_count": 7,
+				"command": "var args = arguments[0], from = {'x':args[1],'y':args[2],'z':args[3]},to={'x':args[4],'y':args[5],'z':args[6]}; for(var i=0; i< World.map.length; i++){ if((World.map[i].block.position.x >= from.x && World.map[i].block.position.y >= from.y && World.map[i].block.position.z >= from.z) && (World.map[i].block.position.x <= to.x && World.map[i].block.position.y <= to.y && World.map[i].block.position.z <= to.z)){ World.remove(World.map[i].block);  scene.remove(World.map[i].block);  }  } for(var x = from.x; x <= to.x; x++){ for(var y = from.y; y <= to.y; y++){ for(var z = from.z; z <= to.z; z++){ scene.add(World.generate(x,y,z, args[7]));}}}"
+
+			}
+		]
+	},
+	"comments" :{
+				"params" : ["from = {'x':-2,'y':-2,'z':-2}", "to={'x':2,'y':2,'z':2}"],
+				"args_count":6,
+		"div" : "<div style='width: 20px; height: 20px; background:#f00'></div>",
+			"smth":{
+				"name" : "test",
+				"args_count":0,
+				"command":"setbgTexture(['data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABtElEQVQoUyWSUW/DIAyE+Wtb1aiJABmQQSEiqbr1Yc972N/f50SKWoec73yH3fv3T3LzUlJpIZWHl2kOC1U/Qtbc99lLSDreP/eHj0nd7BP/MddU19u0TLN/LBFcTDWWqtsBlz0xc+5FHWQB+tofVG2L2mJWLxmimKkr6BlMqZxIaS7kygz0wMu3IBpLg/vjBkM2qOjC0f5CAaQLkqEWbfwmXQHlNgDI2UbRji9sWM3YfXcTkLbhVfvBUd2eUlZADIlXf9KBxiFq+HYYRe4+M1T7vM+pdfz5VGAFCk8bL/NTKv08jkzRAJ3WTc5JaO2vN7JQpjawgg2mJXdk3albwGnf6/68soObDNbnNykbvTnMwdIrbpGMMz4LHLD6BHEZ+FEKE9GV2mI0wc2hQh8ZojidThCBDyd1PO2WTnRZh46jbIcDVLh/yMgu25Q4vnqQDalikk/TeQl8ctAzFRV7AhrrcC8xWVY2htB83TeZ0unYGVzKuUgoMhLQpNZpN6Xd0CZFErZOzlvY9o6oj8VCM7XKaoKD1RYs2yJxuebBQIwkynszlzYPLq/QrgWzDZeS15H7+AfxsPL46xnYHQAAAABJRU5ErkJggg=='])"
+			}
+	}
+}

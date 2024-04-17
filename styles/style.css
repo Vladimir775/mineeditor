@@ -1,0 +1,234 @@
+@font-face {
+  font-family: 'Minecraft Title Cyrillic Regular';
+  src: url('/content/fonts/MineFont.ttf')  format('truetype');
+}
+
+#LOGO{
+  font-family: 'Minecraft Title Cyrillic Regular';
+  font-variant: petite-caps;
+  margin: 0 1vw;
+}
+
+#LOGO h2{
+  transform: rotate(-5deg);
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  /*font-family: 'Minecraft Title Cyrillic Regular';*/
+  /*font-variant: petite-caps;*/
+	padding: 0;
+	margin: 0;
+	display: grid;
+	grid-template-columns: 8fr 2fr;
+}
+
+#canvas {
+	width: 80vw;
+	height: 80vh;
+	display: block;
+	float: left;
+}
+
+.control{
+	background: #999;
+}
+
+#panel1{
+  padding-top: 5vh;
+	height: 75vh;
+}
+
+#panel2{
+	height: 20vh;
+	grid-column: span 2;
+}
+
+ul#blocks{
+	list-style: none;
+	height: 60vh;
+	overflow: auto;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+ul#blocks li{
+	padding: 0.5vw;
+	font-size: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+}
+
+ul#blocks li img{
+	width: 5vw;
+	height: 5vw;
+}
+
+.selected{
+	background: #f99;
+}
+
+.options{
+	width: 20vw;
+	background: #fff;
+	height: 20vh;
+}
+
+#shadowmap,#X,#Y,#Gravity,#Fly{
+	font-size: 1vw;
+  padding: .5vw 0;
+  border-bottom: 0.05vw solid #555;
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 3.4vw;
+  height: 1.8vw;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 1vw;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.5vw;
+  width: 1.5vw;
+  left: .2vw;
+  bottom: .1vw;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(1.4vw);
+  -ms-transform: translateX(1.4vw);
+  transform: translateX(1.4vw);
+}
+
+
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2vw;
+  background: #fff;
+  font-size: 1vw;
+
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 1vw;
+  border: none;
+  outline: none;
+  color: #000;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  padding: 0.2vw 1vw;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #aaa;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 1vw;
+  box-shadow: 0px 0.1vw 0.2vw 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 0.4vw 1vw;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+
+  border-bottom: 0.1vw solid #333;
+}
+
+.dropdown-content p {
+  color: #333;
+  padding: 0.1vw 1vw;
+  margin: 0.4vw 0 0 0;
+  border-top: 0.1vw dashed #555;
+  border-bottom: 0.1vw dashed #555;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+input#exp_view {
+  width: 0.7vw;
+  height: 0.7vw;
+}
+
+span{
+  color: #f00;
+}
+
+span2{
+  color: #fa0;
+}
+
+input#searcher{
+  height: 2vh;
+  width: 13vw;
+
+  font-size: 1vw;
+}

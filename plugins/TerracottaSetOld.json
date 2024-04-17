@@ -1,0 +1,244 @@
+{
+	"name" : "'TerracottaSet v:0.0.1'",
+	"blocks" : {
+		"BlackTerracotta" : {
+			"arm" : null,
+			"textures" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABJUlEQVQ4EQXBQQEbSBAEMfXaAO51DMKfYDwVaX/+/68AMNi8N5W7fD5TdKkAbPOF4b3HcJy5+xEbd9l79ugyA+Frc0XHkQhjZpuiIrZnDxfyHT5vCo4A5o0rQhjQocALM9vsPe89QbmLCO/zvPeAsIf5vs2VjULnvQGA4S7DTEN573nJRgFMIZ5HKRRibGxz9/NlugPhvRnu0vL2XBFBYTa25wt7E/xORzLTJdi8RxgYm7ufL6kII2EgbJA7oDfkYXu+3bGxUTSf7wP3+4uPYZ8R14G7hG/NYJlp3B2GjzdsKmLGMJTvBgjYUMJgH+vcJRkYYL42BgzFPo/fT7jfDzmZh8DerPkSDXQ/GQ0wYM8HUFT84j1fBsD7GDbmuQIQdATYFP8A9OzddVLL2iEAAAAASUVORK5CYII=",
+			"className": "BlackTerracotta",
+			"constructor": "default",
+			"extends" : "Slab"
+		},
+		"BlueTerracotta" : {
+			"arm" : null,
+			"textures" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABTUlEQVQ4EQXBAYEgNxADMHmSK6ln8BTKn0RvM66Uv3/+bVsAESbmhK2369yh7FvdAsjEhSTmjATLa7zviQp2ayZyRruSgLYusapvRbWlCBIzY8suSjJy8UrqZriJXWwpQIzYLVAE6AcF0xLMMGfMPQqtt6ulrXPHOQNABnHP8JaELu2aGQBAvFcJmWjROmdMS4YCEtqCI7Ta0tJKmJCJ71u36Cuq5ZwB763eGGNfQUtfSSTMGRdmYoXveVu6ZLxXgYkJAEQS73su7FYh6CJAS8KuJyAT1Alzxu0uIqLQuP8cwe/vL7mSOEMb+5bwvmrrdslAyaDetySSa4aEXahMJCi7XIkiCASttiSSI7u6qwUyoUjcTAgwYRuZ8D3tel8pzxojUOYnslwtCcu+TxNmKAQhcWdAt2rtfzFnXEIR/FxBMIlXFKHFrrbAxJb/AZZY8gkLi4GRAAAAAElFTkSuQmCC",
+			"className": "BlueTerracotta",
+			"constructor": "default",
+			"extends" : "Slab"
+		},
+		"BrownTerracotta" : {
+			"arm" : null,
+			"textures" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABSElEQVQ4EQXBAQEkNxADMHmSZ1IEz6P8ufQ240r59+8/rQKIMMwMrffWuQP2W7sLJCZxIZh7BJYn3vukJOzWTOSEjglQXOGVvielrSKQmMRit2AmcrBF3YQ/Z+yWVqGYmMQWBQzQhwK3GEzCEPF9j/JahHDvAe8txYTlnom3FbS0dc4BAPB2BQkNlnPHdCuhgKAt5QittiyQiQkZvm/dir4FxZmAt9VhjN1SWvpKCGbiwpyxqr/1oCXxXgWGmZDSkIh477nULm0laEkACFpvCzJonTPmjNstiSTaIu49gt/vxxwR50TFviX1fk9xW6IkJOC9JSTHJBJ2i0rIhMRuXShSAkGrBTJH3tOtLQmBItycAJgZu5U7/J623u8Dn3UyAo25pHEVQdn/PotZQIIQ/uSAbrVrfzHDBRDcYxDMjLcFUNhqq0hY/A9VQumzqjaVKgAAAABJRU5ErkJggg==",
+			"className": "BrownTerracotta",
+			"constructor": "default",
+			"extends" : "Slab"
+		},
+		"CyanTerracotta" : {
+			"arm" : null,
+			"textures" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABg0lEQVQ4y21TWbYlIQhzjfe2A6Bl7X8TPhKxXnWf/uA4QQgBU1FbWfSxIrZq70vntWSMlVV9P5ZcYxXff2ul/WmN5wQAbPS6ls25rE8HuFc25X3xtXZb4iBtdA+Ufa87YSrW1weHCMiO/HXLkUGcTXmb+7fp1gHcVmp+CXqgXUQY/K2N6GrODqZhPc68AxMHQKA5AOpFNgB+osZM21RtXrQagEwIDSyyt6CXnQWcqr2ymT0+sB1sTJyYdcSl9UccOthgWefcICbZbiAkcw3GX6oCUPiodFQv7dHhP2wIgPqrO1O86ARX1adeAMm1193ym2Bp126/gW13IJ9SmFV/AaOddvugXRODJCFYf1SH2sOHKrdKZySxuTPTt78GCQE41MNCNJwg6KaM4PaqG6VIaEOAU+sZ3aM87u2+14ieY4yhPBmEmKlEX2tMJCnfk5N2xhmAHynx2XbJcu8BTOXQdQ1qKfxpZPPqP+f/DBvFbHwXMrB/PssR7fyPF0OCOqvzlfH2Awx7C9oNf77fAAAAAElFTkSuQmCC",
+			"className": "CyanTerracotta",
+			"constructor": "default",
+			"extends" : "Slab"
+		},
+		"GrayTerracotta" : {
+			"arm" : null,
+			"textures" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABJklEQVQ4EQXBwYHQMAAEMY2TUnjRwfVfFhcvUj9//8wGgHToxObeOU+Me2d3QFReKDpH4XLlfh+AXTp0snECNl74cO4FNkNQThl2gYoHd2re4i0b7lwYypGNAUTwAcMLQTg58n0XczcEnveA+81QMd4Td8CGzXMOAIB7B0TYeE7OhgAQ28CBzTYbUBTF9807uDMY50TcO3uSuAzGhoBOXugE7u91h41y75DiBACp3O96YZeZwoaAUWyzARWm6OS1IYQhz3vA9/tLj+QctuyO5n6z8W7UJCvG/UboURT3woiKcHlhgLCw2RD16F7bbAQHi3g7AahseNJ3bfN9n8Z1HUew9NLlNRaG7zOxo0HI4ukBNnP5FyfvEMSeRwjn5I4hgDszQzH8BzMg0qwbvocnAAAAAElFTkSuQmCC",
+			"className": "GrayTerracotta",
+			"constructor": "default",
+			"extends" : "Slab"
+		},
+		"GreenTerracotta" : {
+			"arm" : null,
+			"textures" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABUUlEQVQ4EQXBwQEcNxADMHCkatxKfu6/Et9qGCD//f1TCoDIjJloa99z7lHs97QFQsSFiLlHYHnivY+WsLtmxpzjvWcEVF2J1+p7tKgiICaj2C1IRg62qDthzuiW1qIliZPYVgsYgj60iikGk8iMMwdUva4W6t7jzgEtZhD3TLytiC26zgwAIN6uIAmhW/ces1tJFABtKcfQaqtblIlJzMT3PZfoW1UwM2B37dQ4dldLi7eaiJg5LuQMeN/HFouxr6jMOIOgSES897nQXS0TWARQSbTP24BMaJ0z5hy3+0hIKMS9F3zfP3KNmBMV+x7h/Z6qW6QkVYN675HgmkTCLqwkMtFg1yUKJWjQaovIHHnP7iqCCEXiZgIgE93KHX6fWt/vJ1hrjECZO1KuVhOK30/FbgUE0cTNgG61a3+VGbciEHquYMQMb6mKqLKrqogo/gcV6vrcd5o15AAAAABJRU5ErkJggg==",
+			"className": "GreenTerracotta",
+			"constructor": "default",
+			"extends" : "Slab"
+		},
+		"LBlueTerracotta" : {
+			"arm" : null,
+			"textures" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABXElEQVQ4EQXBwYEcRxADMLB69pSsH4pDId9OFw3k73//2hZAxEyciW29u37O2HJ3dQsgEw+cxJkhKLfxvRcV3NZknBlv10nAbT3wi2cX1aIICWeiZS0lCQfLCc8Mf0RblltWjfiIuywUYeBCLUYZMRk5cZ4Are+uLW39nPEzAxYS8JyM25XEXbQ+MwCAeHcJhilbPnPMWkkUINwWHEPrtrYoEZM4w/deD6O7VrU8J+C9lbOOYWuhtNWQxDnxQCZGfN/rbrSVxF2umokPioCQuPd6qG4tJtEWQFsnsbtWwAzUY8yMp7sIAOXP54Df90uOSZwM5e4S3l239dzlDINNVL13CXKchMS2qgwjGs7yJLGAwQatW5JIjvT13WoJDIrwzCBABCTj3Ou2fu/XlNc6xkCZJ7LxKBssc19N3GEKEBt+5gi6XOVbOfEspgj7OYIjxqC2NQmtbm0LzGj5H0/t95U9P5b6AAAAAElFTkSuQmCC",
+			"className": "LBlueTerracotta",
+			"constructor": "default",
+			"extends" : "Slab"
+		},
+		"LGrayTerracotta" : {
+			"arm" : null,
+			"textures" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABbElEQVQ4EQXBwYEUQRADMLl6FuLkSyLkfDtdRsq/v3+6LYARZpwTWt97fZ5Dufe6WyCcxAOTOOdIsLyN977SmnB3nTlyDr1OArb1SLyt7pXWliJIOBm33F3KmZGDWxMm4fcZEUqhBSfjFi1bFPTSlvK0JHEmhOD7XtS7F6Pq1+cB770UGbqeZ8a7K4mW7nrOAAIi3rsSkii0nvOYdmWigITd0ngMu3aXljKJM5GJ7/t61ui9qC2fMw6+d/Vw5rClVdwtSGLO8cA546Lf17vVVhLvrSgzzgQAkcR7r4e6W20l0RZAW5mh17sBmaCejDPj6V4SSbQFvz6P4Of7g5GM54yWuxe877WtZ8tAKom23nsRyeNMJHG3qCQmAbaeiCIlyGBrVRLJkb2665ZBJwh4MiHASdxWPmPe17be90v5sR4jgHMijQdAud+vmzhTChAmfmdAt7ble50zHlDA53EQcRJvS0uiLbuqChm3/Adh0QxpUC0MxwAAAABJRU5ErkJggg==",
+			"className": "LGrayTerracotta",
+			"constructor": "default",
+			"extends" : "Slab"
+		},
+		"LimeTerracotta" : {
+			"arm" : null,
+			"textures" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABlElEQVQ4T1VTW47CMBDLkdi+AnsbdqsmVYsQtChQDp8dzyNlP6yQktie8cSFR5P7tS4Ia5Nj8nnejnmitX/UeX75PBEC/f97/2L0BOwdCID5dRSkIxGc8oDvICSCmBomGJ9EuNTZ7vRC0OUzqdqFfqlIoeIV+yl1OXyCzsetY9KYquwifQQ7VrFYiUX6PT9autAWxZAa3bfsLKxKwDWSPahh/3OTGgdgEasXKg+ISmaCblb1kRoGewN9xCE52BZEJTdI33x2UEVzohKEkkZLJfh9z6otl4t0xiRiTpSbchCEAP9+UnlP/9GH3c3IJF4IwAgHaN5AiSABrIAoeyaCOlaOezsxmTpoy0UGqfOerUvHC6HGecGgEZHjQWF7nVy+S8evdGBYDnyYk9pEOZY4dZBwIWjXTVUOydCw5U3qtQSskVwCcrZaBXVpKL5ftu981cwxxui8DRTInFk0ZuxHsg8iG2fgvB40XnE4vb3MATfJZvx24CQ+Yw3aH4mu09r3d8KP6d9j0YxlQr02cX8rgz1l7dMf0XYRIXf8xs4AAAAASUVORK5CYII=",
+			"className": "LimeTerracotta",
+			"constructor": "default",
+			"extends" : "Slab"
+		},
+		"MagentaTerracotta" : {
+			"arm" : null,
+			"textures" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABmklEQVQ4EQXBgQEDNQwEMJ2TPjAhS7AOu9J+YiPl37//mZ4BUCKr7FV62nuuPz5L4/6u0w0SVsqGSnw+W+Dyit95pUcV57a1lvos+bEqoGdsKW+3OUd69IxGIYlVyx1OD8NaS23cFmNX+PMpfRlXwwxVPlXeHmaAguiDGYYaLLEq1l6evc0w0373mDt6xvPZnrXFMCO1EPuz4r0joZvp6/ksMAIi3tuCpAjT7Xm2uj1SzADB7TEdj6Jbd5tujCxWUVW+v2OP6HOZ0fjsZeE9113xWct7hxk9OCOJhLWXDWuXRn9f58RMS8p5W0Kq7BUTMkiJ+J1jM+4d06MSM00CxkjKzPV7A7KLac8qey+775WEKnMb8efzEfz3/Y8sZdlPjDjnmPD7tZ6xu6kiaUkZ4z3HpKQenyKJ08OMpKzFFO7YETNAQsL0aFdE6pF79LnuUKGFiSR2dkmAKu6l/ih+r+72+37B1/XJEmRYn6iJbcYIQ39/TmL3YpCQkPJXFuhut9t8x9rLJkCY57FRYVe8dwyCwdxrpg1UucP//RIainkyfC0AAAAASUVORK5CYII=",
+			"className": "MagentaTerracotta",
+			"constructor": "default",
+			"extends" : "Block"
+		},
+		"OrangeTerracotta" : {
+			"arm" : null,
+			"textures" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABlklEQVQ4EQXBgWElNQwFwJHsTY5CqIgG6ZLke63HTP37z99JAqCU7raelhvnvr6eLeE9r8kASlfZsIq1H13F5aR8Pr8qVHHvtda2nmUOu4AbNuU3sd+jQpBQBey1zHBnGLpafRXnWsVeXXZvc4eMN0SU8lS7N0a4KFrJJ2DCTmJrtZZ0ecLvOYJPLlXgz9cDznkNupqM/azl3Ku63BvJ+FoLUADOe1WV6taJSXw/j74ZtUoCFG5CymORcTMmIVFdVpfV5eccO1reY0Lw7AXOe/Uuy+YdIxLyDkV12XvZ0Gsjznmd9wI456oq3e3pRlAo3e18js2YGzejqwAAtDJz3QusvRCNtbede1GqWjKEP9+PqvLf7w+1rFr2bjPc96Xi3OuGfYfV0bhQnPNSrWpbq3SX9w6hunWTFHdsxQ1VrGIgcXNB95e+x32vQWEFaYq9etEBXcvMqL2tz8cNv78/Gh/XY1mQsr5L37YlJhi8v6aLiQ6gyih/9UJkxk34ubLZg05RzNejsarsamZMoqskYcZNBLrM8D9CeRkEUcYAMAAAAABJRU5ErkJggg==",
+			"className": "OrangeTerracotta",
+			"constructor": "default",
+			"extends" : "Block"
+		},
+		"PinkTerracotta" : {
+			"arm" : null,
+			"textures" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABpElEQVQ4y1VT7XKDMAzL63WQD8LerteSS4B1T+lZckK7HzoI2LJsK674INvsL5Q5SIuLnDnLviyyea/vi+yKou/Pr4nYpolnB4KqQMIPkLISrFJCYEAJXloKcgzCaWZ87YVdCVHuehgJCHgq8MR5T0lqVPQn4ltOWgRKZ3FNf0Bei1HqbMkPSFT2U4OrAioJTar9W/UoAAJNhPRjyawGwsfokTCpL40BWjAy5HEGSMZhTwvlFVWBIOCqBtka03oBSw4s7FAVw2mDwNs2qldlIbMtbqdXRbuHxu/JiilB5kRHIgkVfF+SnBo85vCpBooBElCBAr3TF9xAuAB1IDqyPW3lK8kcWEaFra9vSGYr+Bf8RcZ1Kl5rpjcc1sHJaqARvCdepi/uHoPDwM6+hRo/jIQEHMZ68NGC1DQ6SEhGMpSOLaCVvc/GYc+XPDrS/5v8a/2W35Qul2LytRsKw3QmMRK8MHiumU4bdgbhfb7ZTLpPjtWUOQ4JOwXj7cabRjUfKviP643Wu5LjP9bNy8TLgp6TkaFfOhTmogPfdwX2hs15IzXnDznsPf714rSBAAAAAElFTkSuQmCC",
+			"className": "PinkTerracotta",
+			"constructor": "default",
+			"extends" : "Block"
+		},
+		"PurpleTerracotta" : {
+			"arm" : null,
+			"textures" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABo0lEQVQ4EQXBgZUkNQwFwPqyew8ecZECoZA6N9O2RFX+/fufudMAlpJV9ioz43NefzyPGc55ndsgiVWxYSWe/RA0Z8rnfNSMFU5fq5baW+ZYCbgztsRnRt9XzbgzZkiQ2LWc4XQzrFqycds2doq/st1u09cMBokn5e1hAAXMwQzYhoRVRQi+31eGz72kjPHnzw94zzFDapm+9q5yuiXRTff1szcYAPHeS1CRYXo8+1EzLRUDqHC6zfBYdLvdpocZK2VV1IrP+9qt9DkYd/i1l43PufaOZz3cyzDDuVcSSey9bdh7u8Z8Xt/bZlpSvqeVkVV2YowIQsp7vjbj3NYzUsw0AmaGiunjMwG1CvwUe22775GUSrnTTPz560fw3/c3WZLlVxUT5x6T8f22O2PfZtVISMoY7zkmUXk8VYTbYzQVO0WFe+0kGjUUFNPtIonUo+7rvdcdgllhIoldqyTAynKm1bP4ft1p3+9vho+2lUIm1k/JjW3GJDT3/Thhr2EgKCr+qCXo285c87vtvWzCIMyvx0aJlSUzZkYSZvS9egaoOMP/wvYjD0JM3CEAAAAASUVORK5CYII=",
+			"className": "PurpleTerracotta",
+			"constructor": "default",
+			"extends" : "Block"
+		},
+		"RedTerracotta" : {
+			"arm" : null,
+			"textures" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABl0lEQVQ4EQXBgaHcNgwFMDxKvp8ukwkyY9dtzrbIAvvfP79nBoCgVlmrzIznPT57GbzPcfqAJCplQ8K1twjNK+73libF6aNqW1fpe1QFzLAlnh5zXmlmRqMgsau8Q08z1Cprh9PG2Cuxr9LdWmvMDFWuiqeHGaAgzjvMMOwxlqKWSqzh7/2YafeBIvy6NnjOq4eq0mfsXcvbRxKnx3T7uRZoAfD0EZGUyugen2vbPS0V00DEaSI+tdz9GNFhFakSBN/nsUc578swuHaB52292rW25zQzzuC0CknsvWzYe2nj/r68mCHxPC2hqqxVxoggknK/j017z5geK2GGBIBETzsPkF0YP8Ve2z7nqERXzBnEr2tL4r/vX3JZYn3KDOe8OnzvNsOeji4q4yTgOa9OSW1XRRKnmyEpu1DxnrZhhkaC0D1Gg6ot53G/rWckRJiosLNLZUClvN3Wz+Xct2m+3y/G7biyxaihrqgu24yGwfN1EnoYJAQp/2RhnOb06O+xNxsIoT+XhZVYKW+3NkqM0afNjEGqvMP/JIsZ4BY+9IwAAAAASUVORK5CYII=",
+			"className": "RedTerracotta",
+			"constructor": "default",
+			"extends" : "Block"
+		},
+		"Terracotta" : {
+			"arm" : null,
+			"textures" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB7klEQVQ4T01T2XKCQBDc78qheCFS5i2JBxTggfmanAqIgMmfTqZ7xfKhax3Z6enpmTVZ0Jf9wrkiW/SliFyp04mcVmPZB47U27GcNmPJlo58vz4QP7NHxgYEedCTejORZutLE/tKMJVD2OOFLHSkiPtSbT0p1678zLu8D6CgycKhfCx714T9vCPfsw5PxKdkJHmkuJy4f0xHcox6Wqgj5hiPKK+IhpIvukz+en0kex0OJFdAJRH1GRNBVwsoARKbjSfV2mM1EH6+2B4PwNxKPW8nRBFaMuTRAyQjKBOX8g6qApeAazUF7oAcYLKSINegKswpYktAH7RivhxIE3psi9PRhGM0YLvVypUytsVMmXh0tE0EIcDf65HU6/HVh1s1UAyQAPMulBXmHXQimABOgP2qOhBVG3ty5OmUZAYs+NEmElqdMVpB9dDGAMepOO8mSuiLwTjorPbP5Jl1/Df1dQL3nD2Ma1KPlWludLNISECAD21Ve0mXJhhSMpKhtJ0CWkHbbAFzbnulmSq3dR7/n3dP8qeSYTLWGM5TwcVMg0pFMiT4YHQ85c7nprXrDML3xZ315LIn1Ztr94AmaRI8KJ7v+NKo5mb+3H+Vjtmzd11hfMe4+Zj4WNAziKAgsexcLpWJs30rWG+sOV+k5vwDhUU1TDhCRsgAAAAASUVORK5CYII=",
+			"className": "Terracotta",
+			"constructor": "default",
+			"extends" : "Block"
+		},
+		"WhiteTerracotta" : {
+			"arm" : null,
+			"textures" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABeUlEQVQ4T1VTQY6DMAzM/x/RklL1tLsINaLaR7QoId3vZD1jO9DDiAD2eMZ2Qp5jW6ehI0+xlfvY6uPatjS2dR7kPLZtGVuW8/pz7sB7AEER1OXKpJquQnBr+I4AoKTYSVCkWA7OQnBpTwZrwjpZhUkrbOkihAJ7Ir48cIbScwv4AWYGTSrxRQKRbpWy4x579UJ1IJDEKgQAqwle3+YRmFTqW+wBTqhqxEK16mgY5OWDxw+4jW4lsmjY3IITzENvVJ1HtYXpkCQytiZVi2IBlUtvoDYN4HlRe132Qc1GklEJSCJ4cbbRJrA3D/+8TwqM/EaygwJNVAzNF8zV7WTaBzQURAHj0KCL7cDe8TydevOwSEgo1ou+SEhwb8eqvjSU/HCbRrbYOyxgzl2eyT12/i1e/9I+HY7ZF0qKhON8eWHw5MIMfZ1B+BQ7VOcj/tWGBlZNtuNfJ7tl8UMF/9l46V1WuNjIeZmoAp6TYrOxcbmocL8r2a6yW/gHG74kM4NK97EAAAAASUVORK5CYII=",
+			"className": "WhiteTerracotta",
+			"constructor": "default",
+			"extends" : "Block"
+		},
+		"YellowTerracotta" : {
+			"arm" : null,
+			"textures" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABnElEQVQ4EQXBgYFjNRQEMI3thKUOWqUpOrtNvt8g5b9//2lbABHZyznRqe9zvV9b8XyumQHCynJgJc5ri3D5iu/3y1QWzx1nb/u1zaf2WmBaR+Iz1ecy1VYRJHHWcsszQ1l7ywtPLbVW+Pu9JBFVTEvitZY7dKq3qoJ+6YxeTrFEVjSkfD6PdnzvYGvq533A57lasjZ3nNdevnesxB3M9XptQEDE544gCaFT7/exZsZaMQWImTLxsphrZnQK1o6zYq/4fL5OLfNcbRWvs8D3GbM5+3hutdVynxJWYp/jwD7LxfP7lSfakSzPt6SyltcOQZFIlu/3cah7q1M70Q4JqFpZ2uv7DcgJrffhnO3MfchihQvx8z4kfv/8IcuynL+Wlue5hM/vNa0zE2uRlCxVn+eSsF7Oiqy4t9pKYu/owq0T0QIJghkjItZ+yfP1eca0VqhFQzg5IcBe8dxaP5vfj5n6/fMr6uN65YhSzjsycZRCub+/JoupFAmJZvnJFszUzHj+jH22UwRC328LO7HX9r1VFVHVe7VVWNst/wNrkyZMsPR95AAAAABJRU5ErkJggg==",
+			"className": "YellowTerracotta",
+			"constructor": "default",
+			"extends" : "Block"
+		}
+	},"comment": {
+
+
+
+
+
+
+
+		"GlazzedBlackTerracotta" : {
+			"arm" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABW0lEQVR42l2TMUsDURCE9+8LdolFmhQWgoidWhkQxICIGEhCOJBTLETRNCJ4d83zvo2z2Vgs797L7Ozs7Maqelw+m7Py0VyU68meR/U4LvX78fb+h2nbG4/n9Wn8Zov5cCd5uRyVt5/z+Oac3x94gINIRQhTMlX0SBXeHm4H8QYZ71I7vdovq9VoQ5BJkA5QiVQWqYiVw91g4lEABW2Q2HWzSMzSIajXJ8Wi8utRgFRFRDlZiuSVPfWJXL6ay22FehOSSigZ0/EGvLdQvRwWSFDAA5IlG7BIv9uJGygcd1eQR5jBfMsfH+XdIOa/mA1jGiZ5tCGZKIA9+0KyTM1FTXKQmwEEJHmk/5N9kQDIcX3vrDQ9d9OS9wW1WrLwgH4Jr9hPQCucxyosG0j4FMKkHqzZAsw+ANZYOdWuEwDC1SxZu4A3zJtT24eZapdJmP4kWigxawOzgXkrNb1flLNhWladOU0AAAAASUVORK5CYII=",
+			"textures" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABW0lEQVR42l2TMUsDURCE9+8LdolFmhQWgoidWhkQxICIGEhCOJBTLETRNCJ4d83zvo2z2Vgs797L7Ozs7Maqelw+m7Py0VyU68meR/U4LvX78fb+h2nbG4/n9Wn8Zov5cCd5uRyVt5/z+Oac3x94gINIRQhTMlX0SBXeHm4H8QYZ71I7vdovq9VoQ5BJkA5QiVQWqYiVw91g4lEABW2Q2HWzSMzSIajXJ8Wi8utRgFRFRDlZiuSVPfWJXL6ay22FehOSSigZ0/EGvLdQvRwWSFDAA5IlG7BIv9uJGygcd1eQR5jBfMsfH+XdIOa/mA1jGiZ5tCGZKIA9+0KyTM1FTXKQmwEEJHmk/5N9kQDIcX3vrDQ9d9OS9wW1WrLwgH4Jr9hPQCucxyosG0j4FMKkHqzZAsw+ANZYOdWuEwDC1SxZu4A3zJtT24eZapdJmP4kWigxawOzgXkrNb1flLNhWladOU0AAAAASUVORK5CYII=",
+			"className": "EndStone",
+			"constructor": "default",
+			"extends" : "Block"
+		},
+		"GlazzedBlueTerracotta" : {
+			"arm" : "",
+			"textures" : "",
+			"className": "",
+			"constructor": "default",
+			"extends" : "Block"
+		},
+		"GlazzedBrownTerracotta" : {
+			"arm" : "",
+			"textures" : "",
+			"className": "GlazzedCyanTerracotta",
+			"constructor": "default",
+			"extends" : "Block"
+		},
+		"GlazzedCyanTerracotta" : {
+			"arm" : "",
+			"textures" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABL0lEQVQoz12SMUqDQRCF5w5qIngLQTFCAkHEUvAY6azEFIKdRZr06f7mh+QEuYKBRAu9Tr6Zt5lsfhiWneW9NzNv1i7evojeYvH0/ELs/v43u1/Oq/VaL2eTd6Lftv3Viovdjx5uB0MIl8vl9/aH6KBd8WMOodc0cAy0CMnpooMAWhjzW9OoK3FO0NNZ4cTl/PXThFMd2tMwoNUqZyFE+Aw14frmTqleSDlTHjRa5uO3bVbgVe0Ox496ZIBEO0G2aDKU1AlorxOz1Wj8MFnp6Ai14b4dbKnRSDuBBBlpJ4G01AkbQKsXE7vWznDToo72A5rT0vJaWNVkUb1THzrXKYSnYeIxPd2p5VJQLWsKH0uF6azm+NfoLFIjybo0iov8QMuk10Hzwzn9hx6ENRWwPaABKF3uEWuwAAAAAElFTkSuQmCC",
+			"className": "GlazzedCyanTerracotta",
+			"constructor": "default",
+			"extends" : "Block"
+		},
+		"GlazzedGrayTerracotta" : {
+			"arm" : "",
+			"textures" : "",
+			"className": "",
+			"constructor": "default",
+			"extends" : "Block"
+		},
+		"GlazzedGreenTerracotta" : {
+			"arm" : "",
+			"textures" : "",
+			"className": "",
+			"constructor": "default",
+			"extends" : "Block"
+		},
+		"GlazzedLBlueTerracotta" : {
+			"arm" : "",
+			"textures" : "",
+			"className": "",
+			"constructor": "default",
+			"extends" : "Block"
+		},
+		"GlazzedLGrayTerracotta" : {
+			"arm" : "",
+			"textures" : "",
+			"className": "",
+			"constructor": "default",
+			"extends" : "Block"
+		},
+		"GlazzedLimeTerracotta" : {
+			"arm" : "",
+			"textures" : "",
+			"className": "",
+			"constructor": "default",
+			"extends" : "Block"
+		},
+		"GlazzedMagentaTerracotta" : {
+			"arm" : "",
+			"textures" : "",
+			"className": "",
+			"constructor": "default",
+			"extends" : "Block"
+		},
+		"GlazzedOrangeTerracotta" : {
+			"arm" : "",
+			"textures" : "",
+			"className": "",
+			"constructor": "default",
+			"extends" : "Block"
+		},
+		"GlazzedPinkTerracotta" : {
+			"arm" : "",
+			"textures" : "",
+			"className": "",
+			"constructor": "default",
+			"extends" : "Block"
+		},
+		"GlazzedPurpleTerracotta" : {
+			"arm" : "",
+			"textures" : "",
+			"className": "",
+			"constructor": "default",
+			"extends" : "Block"
+		},
+		"GlazzedRedTerracotta" : {
+			"arm" : "",
+			"textures" : "",
+			"className": "",
+			"constructor": "default",
+			"extends" : "Block"
+		},
+		"GlazzedWhiteTerracotta" : {
+			"arm" : "",
+			"textures" : "",
+			"className": "",
+			"constructor": "default",
+			"extends" : "Block"
+		},
+		"GlazzedYellowTerracotta" : {
+			"arm" : "",
+			"textures" : "",
+			"className": "",
+			"constructor": "default",
+			"extends" : "Block"
+		}
+	}
+}

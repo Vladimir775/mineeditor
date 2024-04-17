@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Minecraft Title Cyrillic Regular';
+  src: url('/content/fonts/MineFont.ttf')  format('truetype');
+}
+
+span.logo{
+  font-family: 'Minecraft Title Cyrillic Regular';
+  font-variant: petite-caps;
+}
+
+h5{
+  font-family: 'Minecraft Title Cyrillic Regular';
+  font-variant: petite-caps;
+}
+
+.card{
+	margin-top: 15px;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #17a2b8!important;
+    border-color: #17a2b8!important;
+}
+
+.container-lg .row{
+	margin-bottom: 6rem;
+}
+
+footer{
+	background: #343a40;
+	color:#fff;
+}
+
+footer a, footer a:active{
+	color:#fff;
+}
+
+footer a:hover{
+	color:#17a2b8;
+}
+
+nav a.btn-outline-info{
+	color: #17a2b8!important;
+}
+
+nav a.btn-outline-info:hover, nav a.btn-outline-info:active{
+	color: #fff!important;
+}
+
+nav a.btn-outline-info:focus {
+    box-shadow: 0 0 0 0.2rem rgba(23,162,184,.5);
+}
+
+nav a.btn-outline-danger{
+	color: #dc3545!important;
+}
+
+nav a.btn-outline-danger:hover, nav a.btn-outline-danger:active{
+	color: #fff!important;
+}
+
+nav a.btn-outline-danger:focus {
+    box-shadow: 0 0 0 0.2rem rgba(225,83,97,.5);
+}

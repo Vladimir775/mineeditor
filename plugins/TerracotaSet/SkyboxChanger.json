@@ -1,0 +1,11 @@
+{
+	"name" : "'Skybox Changer v:1.0.0'",
+	"misc":{
+		"CMD" : "var z = document.createElement('a'); z.innerHTML = $Viewer ; document.getElementById('ViewGeneral').getElementsByClassName('dropdown-content')[0].appendChild(z);",
+		"Viewer" : "'<label for=\"SkyboxChanger\">Change Skybox</label><input type=\"file\" id=\"SkyboxChanger\" style=\"display:none\"/>'",
+
+		"scripts":{
+			"event": "document.getElementById('SkyboxChanger').onchange = function(){console.log(document.getElementById('SkyboxChanger').files)}"
+		}
+	}
+}
