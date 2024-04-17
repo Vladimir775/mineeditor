@@ -1,0 +1,157 @@
+@font-face {
+	font-family: 'Minecraft Title Cyrillic Regular';
+	src: url('content/fonts/MineFont.ttf')  format('truetype');
+}
+
+
+body{
+	/*font-family: 'Minecraft Title Cyrillic Regular';*/
+	padding: 0;
+	margin: 0;
+}
+
+#blocklist{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+#blocklist li{
+	background: #ccc;
+	margin: 8px;
+	border: 2px solid #000;
+}
+
+#blocklist li > *{
+	overflow: auto;
+	margin: 12px;
+	padding: 8px;
+}
+
+img{
+	float: right;
+    image-rendering: pixelated;
+}
+
+h1{
+	color: #fc0;
+}
+
+h5{
+	float: none;
+	padding: 0;
+	margin: 0 8px;
+}
+
+img{
+	background: #fff;
+	height: 120px;
+	width: 120px;
+}
+.cc{
+	height: 120px;
+	width: 40%;
+	background: #fff;
+	position: relative;
+	float: left;
+}
+.cc:before{
+	font-size: 16px;
+	content:'drop-image here';
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	color: #777;
+	border-radius: 4px;
+
+}
+
+
+#addb, #save{
+	cursor: pointer;
+	margin: 4px 16px;
+}
+
+#save{
+	border: none;
+	background: #7bb54a;
+	padding: 8px 32px;
+	font-size: 16px;
+	color: #fff;
+
+	border-radius: 4px;
+
+	transition: 0.5s;
+}
+
+#addb{
+	border: none;
+	background: #eac43d;
+	padding: 8px 32px;
+	font-size: 16px;
+	color: #fff;
+
+	border-radius: 4px;
+
+	transition: 0.5s;
+}
+
+#addscript{
+	border: none;
+	background: #3d93ea;
+	padding: 8px 32px;
+	font-size: 16px;
+	color: #fff;
+
+	border-radius: 4px;
+
+	transition: 0.5s;
+}
+
+#addscript:hover{
+	box-shadow: 0px 4px 8px 0px #aaa;
+	background: #4C74BF;
+}
+
+#save:hover{
+	box-shadow: 0px 4px 8px 0px #aaa;
+	background: #8A961F;
+}
+
+#addb:hover{
+	box-shadow: 0px 4px 8px 0px #aaa;
+	background: #f9a512;
+}
+
+input[type="file"] {
+	display: inline-block;
+	opacity: 0;
+	position: absolute;
+	cursor:pointer;
+
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+input[type="text"]{
+	border: 1px solid #000;
+	padding: 4px 8px;
+	font-size: 16px;
+	color: #000;
+
+	border-radius: 4px;
+
+	transition: 0.5s;
+}
+
+input#imp{
+	position: relative;
+	border: 1px solid #000;
+	opacity: 1;
+	width: auto;
+
+	padding: 4px;
+	border-radius: 4px;
+}

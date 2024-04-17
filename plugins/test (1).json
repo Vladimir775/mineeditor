@@ -1,0 +1,32 @@
+{
+	"name": "test0.1.0",
+	"blocks": {
+		"light": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABL0lEQVQoz12SMUqDQRCF5w5qIngLQTFCAkHEUvAY6azEFIKdRZr06f7mh+QEuYKBRAu9Tr6Zt5lsfhiWneW9NzNv1i7evojeYvH0/ELs/v43u1/Oq/VaL2eTd6Lftv3Viovdjx5uB0MIl8vl9/aH6KBd8WMOodc0cAy0CMnpooMAWhjzW9OoK3FO0NNZ4cTl/PXThFMd2tMwoNUqZyFE+Aw14frmTqleSDlTHjRa5uO3bVbgVe0Ox496ZIBEO0G2aDKU1AlorxOz1Wj8MFnp6Ai14b4dbKnRSDuBBBlpJ4G01AkbQKsXE7vWznDToo72A5rT0vJaWNVkUb1THzrXKYSnYeIxPd2p5VJQLWsKH0uF6azm+NfoLFIjybo0iov8QMuk10Hzwzn9hx6ENRWwPaABKF3uEWuwAAAAAElFTkSuQmCC",
+			"className": "light",
+			"constructor": "default",
+			"extends": "Block",
+			"light": true,
+			"transparent": false
+		},
+		"transp glass": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAlElEQVQ4y5WTwQ3AIAhF3ck1nKMDcGABzyTuwAbGCTpZLzVRRNADCVH/E8EfYqpvTLUNwUY0EW/4k+cgckwVxFqzACDEqJzZAopzcx4B7IglnIacJaA4fZD7E4AcsdYD1p6glY4bqAogQ0weoBijRKXKCYAXzeuj5f4P4FKMu48EF+IFAE4zr7yQDw3WgmJny9qLnT+yDqxCCNyzfQAAAABJRU5ErkJggg==",
+			"className": "transp_glass",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": true
+		},
+		"glass": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAlElEQVQ4y5WTwQ3AIAhF3ck1nKMDcGABzyTuwAbGCTpZLzVRRNADCVH/E8EfYqpvTLUNwUY0EW/4k+cgckwVxFqzACDEqJzZAopzcx4B7IglnIacJaA4fZD7E4AcsdYD1p6glY4bqAogQ0weoBijRKXKCYAXzeuj5f4P4FKMu48EF+IFAE4zr7yQDw3WgmJny9qLnT+yDqxCCNyzfQAAAABJRU5ErkJggg==",
+			"className": "glass",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		}
+	}
+}

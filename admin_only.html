@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Admin_dev_tool</title>
+	<script src="js/constructor/constructor.js"></script>
+	<link rel="stylesheet" href="styles/editor.css">
+</head>
+<body>
+	<h1>
+		ATTENTION: ~~~1-texture blocks only~~~
+	</h1>
+	<p>
+		If you are not enough blocks, integrated in the editor, you can create your own pack of blocks, and then connect it
+		Tools --> Include Plugin
+	</p>
+	<input type="text" id="plugin-name" placeholder="Plugin Name">
+	<label for="plugin-version">plugin version (</label>
+	<input type="text" id="plugin-version" placeholder="Plugin Version" pattern="[0-9]:[0-9]:[0-9]{3}">
+	<input id="imp" type="file" accept=".png" multiple>
+	<button id="addb" >add block</button>
+	<button id="save" onclick="save_all()">save</button>
+
+
+	<script>
+		var modname = document.getElementById('plugin-name');
+		var modversion = document.getElementById('plugin-version');
+
+
+		async function save_all(){
+			var blocks = document.getElementById('imp').files;
+			console.log(blocks);
+			save(blocks);
+		}
+		async function save(blocks){
+			var mod_obj = {
+			"name" : "'plugin v:0.0.1'",
+			"blocks" : {}
+			}
+
+			mod_obj.name = (modname.value.replace(/\s/g, '') + modversion.value.replace(/\s/g, ''));
+
+			// return;
+
+			for (var i = 0; i < blocks.length; i++) {
+				var texture = await toBase64(blocks[i]);
+				var name = blocks[i].name.split('.')[0];
+				var light = false;
+				var transparent = false;
+				var result ={
+					"arm" : null,
+					"textures" : texture,
+					"className": name,
+					"constructor": "default",
+					"extends" : "Block",
+					"light" : light,
+					"transparent" : transparent
+				}
+				mod_obj.blocks[name] = result;
+				console.log(mod_obj);
+			}
+			download(JSON.stringify(mod_obj, null, '\t'),modname.value.replace(/\s/g, '')+'.json');
+		}
+	</script>
+</body>
+</html>

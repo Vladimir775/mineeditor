@@ -1,0 +1,10 @@
+{
+	"name" : "FogChanger0.0.1",
+	"misc" :{
+		"CMD": "var z = document.createElement('div'); z.className='dropdown'; z.innerHTML= $UI ; z.id='Fog'; document.getElementsByTagName('header')[0].appendChild(z);",
+		"UI":"'<button class=\"dropbtn\"> Fog options </button> <div class=\"dropdown-content\"> <input type=\"color\" /> <input min=\"5\" max=\"30\" value=\"10\" placeholder=\"fog start\" type=\"number\" /> <input min=\"5\" max=\"30\" value=\"10\" placeholder=\"fog length\" type=\"number\" />'",
+		"events" :{
+			"main" :"{var inp = document.getElementById('Fog').getElementsByTagName('input'); function fc(){scene.fog = new THREE.Fog(new THREE.Color(inp[0].value),inp[1].value,inp[2].value);} inp[0].oninput = fc; inp[1].oninput = fc; inp[2].oninput = fc;}"
+		}
+	}
+}

@@ -1,0 +1,302 @@
+{
+	"name": "TerracottaSet1.0.0",
+	"blocks": {
+		"black_glazed_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABJElEQVQoz02Sy4oCQQxFs+qdYO8EER8ILlpGFBQVFET8Bj9KmP387Zx4mmgTmlTVualbqYr1erfZ7P8Wi9/ZjLzrtiRERDBcLrv4+larn5xlGQHxmk4RMyRRwP8xHLpE0jRNiDrlDgSF27ZVwNJoNCYBYDIsz5/tRLVEvTQQYY6GJAUQCKTxQ1XX5LRUw9yqbEiTIC4N0bw/ajNJ6d4SnF6hWdMMQ/LJZG4bAMjzKB5AJUR11mYAwTwHA5IU+MGVV3I47AEpYFI6BR7AO7LlHgBaJ4X2AltedwmkwJsR2u2PxPl6v9weHzMQ3iUECSF9OF2Izw4IfDl2DcF3+aLdJHcoG74CBPyrJ9iQVklk4eoPnBuWAQVwJL2gHjCofsq9qLLS/AMonoH84Kp5AwAAAABJRU5ErkJggg==",
+			"className": "black_glazed_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"black_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABJUlEQVQ4EQXBQQEbSBAEMfXaAO51DMKfYDwVaX/+/68AMNi8N5W7fD5TdKkAbPOF4b3HcJy5+xEbd9l79ugyA+Frc0XHkQhjZpuiIrZnDxfyHT5vCo4A5o0rQhjQocALM9vsPe89QbmLCO/zvPeAsIf5vs2VjULnvQGA4S7DTEN573nJRgFMIZ5HKRRibGxz9/NlugPhvRnu0vL2XBFBYTa25wt7E/xORzLTJdi8RxgYm7ufL6kII2EgbJA7oDfkYXu+3bGxUTSf7wP3+4uPYZ8R14G7hG/NYJlp3B2GjzdsKmLGMJTvBgjYUMJgH+vcJRkYYL42BgzFPo/fT7jfDzmZh8DerPkSDXQ/GQ0wYM8HUFT84j1fBsD7GDbmuQIQdATYFP8A9OzddVLL2iEAAAAASUVORK5CYII=",
+			"className": "black_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"blue_glazed_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAyElEQVQoz4WS0Q3CMBBDvQcSQuov4psP/oCZmKFf7NFFOgAL4eDqcaSVkE7RJbbPl0t0PD3vj9ewvzqcH3bn5IRPfB7UIbOz/ysIQcM4RwrmtQsIDrWSH42Ty21q7Y0z4a0P0TQHb9JVqIbBHN5G9uOQwqEmYa2yaBaHTbZXZGgEG1Ia62QQtO6nCrgVVsp0c+NNn6A8rngduuxq4/+dEq9br0ht0OUdGHkAfMIGQqaqDrCeT0W1/nl1pvWDxFN8LAQxIecrpMM354T7eX7PFuUAAAAASUVORK5CYII=",
+			"className": "blue_glazed_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"blue_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABTUlEQVQ4EQXBAYEgNxADMHmSK6ln8BTKn0RvM66Uv3/+bVsAESbmhK2369yh7FvdAsjEhSTmjATLa7zviQp2ayZyRruSgLYusapvRbWlCBIzY8suSjJy8UrqZriJXWwpQIzYLVAE6AcF0xLMMGfMPQqtt6ulrXPHOQNABnHP8JaELu2aGQBAvFcJmWjROmdMS4YCEtqCI7Ta0tJKmJCJ71u36Cuq5ZwB763eGGNfQUtfSSTMGRdmYoXveVu6ZLxXgYkJAEQS73su7FYh6CJAS8KuJyAT1Alzxu0uIqLQuP8cwe/vL7mSOEMb+5bwvmrrdslAyaDetySSa4aEXahMJCi7XIkiCASttiSSI7u6qwUyoUjcTAgwYRuZ8D3tel8pzxojUOYnslwtCcu+TxNmKAQhcWdAt2rtfzFnXEIR/FxBMIlXFKHFrrbAxJb/AZZY8gkLi4GRAAAAAElFTkSuQmCC",
+			"className": "blue_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"brown_glazed_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABDUlEQVQoz22SsUpDQRBF9yeiZcBPUFKlspA0AYOEFFap8wGmiAEhYlIEgiAI1nYWfomFf+RZzuOyPIRh2Td7z8ydfVt288uf10fWxOfD9GVxZXKwPpxtT+xZ2RMl6rfVzddm9v00D8BGEfswpa0NQKCzT5qcP7+HKdaOmazH+5HA5PauZYqFEalbjod8WkJXq+sLGcp3HXSiWqDnKkydwdpxn7njitWwYu3AnRAOE77niugARyFrjVyxgK4EUJMpyf5L6oqk49UOjpJr7ZGESYbmZust5Z+TsmlEYsTvx151BTzgOwwAK6bFUBM5Lb6tlhGQiRMz9T/kPRLtPFFwam333dA+SeextoxHLfkHliI4Oacb5tAAAAAASUVORK5CYII=",
+			"className": "brown_glazed_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"brown_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABSElEQVQ4EQXBAQEkNxADMHmSZ1IEz6P8ufQ240r59+8/rQKIMMwMrffWuQP2W7sLJCZxIZh7BJYn3vukJOzWTOSEjglQXOGVvielrSKQmMRit2AmcrBF3YQ/Z+yWVqGYmMQWBQzQhwK3GEzCEPF9j/JahHDvAe8txYTlnom3FbS0dc4BAPB2BQkNlnPHdCuhgKAt5QittiyQiQkZvm/dir4FxZmAt9VhjN1SWvpKCGbiwpyxqr/1oCXxXgWGmZDSkIh477nULm0laEkACFpvCzJonTPmjNstiSTaIu49gt/vxxwR50TFviX1fk9xW6IkJOC9JSTHJBJ2i0rIhMRuXShSAkGrBTJH3tOtLQmBItycAJgZu5U7/J623u8Dn3UyAo25pHEVQdn/PotZQIIQ/uSAbrVrfzHDBRDcYxDMjLcFUNhqq0hY/A9VQumzqjaVKgAAAABJRU5ErkJggg==",
+			"className": "brown_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"cyan_glazed_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABL0lEQVQoz12SMUqDQRCF5w5qIngLQTFCAkHEUvAY6azEFIKdRZr06f7mh+QEuYKBRAu9Tr6Zt5lsfhiWneW9NzNv1i7evojeYvH0/ELs/v43u1/Oq/VaL2eTd6Lftv3Viovdjx5uB0MIl8vl9/aH6KBd8WMOodc0cAy0CMnpooMAWhjzW9OoK3FO0NNZ4cTl/PXThFMd2tMwoNUqZyFE+Aw14frmTqleSDlTHjRa5uO3bVbgVe0Ox496ZIBEO0G2aDKU1AlorxOz1Wj8MFnp6Ai14b4dbKnRSDuBBBlpJ4G01AkbQKsXE7vWznDToo72A5rT0vJaWNVkUb1THzrXKYSnYeIxPd2p5VJQLWsKH0uF6azm+NfoLFIjybo0iov8QMuk10Hzwzn9hx6ENRWwPaABKF3uEWuwAAAAAElFTkSuQmCC",
+			"className": "cyan_glazed_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"cyan_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABg0lEQVQ4y21TWbYlIQhzjfe2A6Bl7X8TPhKxXnWf/uA4QQgBU1FbWfSxIrZq70vntWSMlVV9P5ZcYxXff2ul/WmN5wQAbPS6ls25rE8HuFc25X3xtXZb4iBtdA+Ufa87YSrW1weHCMiO/HXLkUGcTXmb+7fp1gHcVmp+CXqgXUQY/K2N6GrODqZhPc68AxMHQKA5AOpFNgB+osZM21RtXrQagEwIDSyyt6CXnQWcqr2ymT0+sB1sTJyYdcSl9UccOthgWefcICbZbiAkcw3GX6oCUPiodFQv7dHhP2wIgPqrO1O86ARX1adeAMm1193ym2Bp126/gW13IJ9SmFV/AaOddvugXRODJCFYf1SH2sOHKrdKZySxuTPTt78GCQE41MNCNJwg6KaM4PaqG6VIaEOAU+sZ3aM87u2+14ieY4yhPBmEmKlEX2tMJCnfk5N2xhmAHynx2XbJcu8BTOXQdQ1qKfxpZPPqP+f/DBvFbHwXMrB/PssR7fyPF0OCOqvzlfH2Awx7C9oNf77fAAAAAElFTkSuQmCC",
+			"className": "cyan_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"gray_glazed_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABD0lEQVQoz22SzWrCYBBF550EIQtBKKEgWNtANxaKC5du7EIXfY4sssi79uiRawgdhmS+L/fOz53U665bNit8GIZxHAm+Tmd8sWw+9t8Ex8svmMDKV9/3EPh8+LmKlsDxHwKJQfM5tzpHCPim+5SD13A30RJW67bdvnsksGw4N4LJXjZv3NoMMTfGBE4ls1KdIjgxIC8lyHd6nhVZbHe8G3waC836OBkraAMFwNBNAiCgUeJGSFfWdSqeasBguGKQpWY6wjG9e8wY2VUFJ8fGrINFANL7H1Q6sYHo6FTux4mp8Bxan2nvvtwJUNUrcdPtyHEYJyG3cj9aMod7sYgqYbSexT9knabPrdtwd1M0wR/9YAseh/d/ogAAAABJRU5ErkJggg==",
+			"className": "gray_glazed_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"gray_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABJklEQVQ4EQXBwYHQMAAEMY2TUnjRwfVfFhcvUj9//8wGgHToxObeOU+Me2d3QFReKDpH4XLlfh+AXTp0snECNl74cO4FNkNQThl2gYoHd2re4i0b7lwYypGNAUTwAcMLQTg58n0XczcEnveA+81QMd4Td8CGzXMOAIB7B0TYeE7OhgAQ28CBzTYbUBTF9807uDMY50TcO3uSuAzGhoBOXugE7u91h41y75DiBACp3O96YZeZwoaAUWyzARWm6OS1IYQhz3vA9/tLj+QctuyO5n6z8W7UJCvG/UboURT3woiKcHlhgLCw2RD16F7bbAQHi3g7AahseNJ3bfN9n8Z1HUew9NLlNRaG7zOxo0HI4ukBNnP5FyfvEMSeRwjn5I4hgDszQzH8BzMg0qwbvocnAAAAAElFTkSuQmCC",
+			"className": "gray_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"green_glazed_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABMklEQVQoz12SvUoDURCF71OsteYHe58hYCobCaggJMVikUpIEwRJl8YyVRo7fZcETFIkr+MXvuWsCMPunbnnzJyZO6V+v8F2xxM2fOpiOX98PWCv6+7ss7f52RPELaD54RC6m/TvX65DGIwun98qCPPvfr28EFa8Bo0PIWSgcMaLivQQcOEQL0ETwra7AxGycg2aCITp6srzWZK6URK0peTDxEC3BISC5vQXTQq+KAGtNlsC2fSggebC3FwHDRlVaCPSNo1jbkEQkCHaySqvZHx2KUezjsKogB6CRRngbMs0qpJmBLRDLxlo3ogDd+R2euqx4JlgAnBEMdFcp0vfwZZagtGg06LqCd4+dpoKzId2cXwdc0c3LlCbgdasBjw5fP91aSIrN8uXbXOZQ8h6a1nvX8UXRs8wRVstAAAAAElFTkSuQmCC",
+			"className": "green_glazed_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"green_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABUUlEQVQ4EQXBwQEcNxADMHCkatxKfu6/Et9qGCD//f1TCoDIjJloa99z7lHs97QFQsSFiLlHYHnivY+WsLtmxpzjvWcEVF2J1+p7tKgiICaj2C1IRg62qDthzuiW1qIliZPYVgsYgj60iikGk8iMMwdUva4W6t7jzgEtZhD3TLytiC26zgwAIN6uIAmhW/ces1tJFABtKcfQaqtblIlJzMT3PZfoW1UwM2B37dQ4dldLi7eaiJg5LuQMeN/HFouxr6jMOIOgSES897nQXS0TWARQSbTP24BMaJ0z5hy3+0hIKMS9F3zfP3KNmBMV+x7h/Z6qW6QkVYN675HgmkTCLqwkMtFg1yUKJWjQaovIHHnP7iqCCEXiZgIgE93KHX6fWt/vJ1hrjECZO1KuVhOK30/FbgUE0cTNgG61a3+VGbciEHquYMQMb6mKqLKrqogo/gcV6vrcd5o15AAAAABJRU5ErkJggg==",
+			"className": "green_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"light_blue_glazed_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABBElEQVQoz32SPU5CQRRG71IkVCaE0BndgzW7oYKCygW4BxsLY6GtYQcEYuzcAA2ERDjkkA94Asmdybw737l/86o1/Ly7f8YeXmeP799Y/+OHHU+n+8QZ/2rz1x5/4WQv1s3grcFwuO2MAPQAoPG8AzDycA1jeO74hJGfL9cAKveAjIreyxS1vDAASbRCFwZANdLJYqmCg2WjBC5WGOvGElI1mgQtk8qcje18wpRz5NtZ/W4OsdOoApnKNNkTm5JSZ2atpizaAFGn4mO1Vs7bPFbSiO3LGH6XwV5lGuo84gmQMlDD8A6Nfkybvvf/EjuM/VxnKvPCe9zPJabykP7DMpnbf2YL/NXUJbqjTTgAAAAASUVORK5CYII=",
+			"className": "light_blue_glazed_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"light_blue_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABXElEQVQ4EQXBwYEcRxADMLB69pSsH4pDId9OFw3k73//2hZAxEyciW29u37O2HJ3dQsgEw+cxJkhKLfxvRcV3NZknBlv10nAbT3wi2cX1aIICWeiZS0lCQfLCc8Mf0RblltWjfiIuywUYeBCLUYZMRk5cZ4Are+uLW39nPEzAxYS8JyM25XEXbQ+MwCAeHcJhilbPnPMWkkUINwWHEPrtrYoEZM4w/deD6O7VrU8J+C9lbOOYWuhtNWQxDnxQCZGfN/rbrSVxF2umokPioCQuPd6qG4tJtEWQFsnsbtWwAzUY8yMp7sIAOXP54Df90uOSZwM5e4S3l239dzlDINNVL13CXKchMS2qgwjGs7yJLGAwQatW5JIjvT13WoJDIrwzCBABCTj3Ou2fu/XlNc6xkCZJ7LxKBssc19N3GEKEBt+5gi6XOVbOfEspgj7OYIjxqC2NQmtbm0LzGj5H0/t95U9P5b6AAAAAElFTkSuQmCC",
+			"className": "light_blue_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"light_gray_glazed_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABJElEQVQoz12STUoEMRCFcwh/juRKlEFo1MW4FREZRb2AuHd2gVlkOddwIy5cDAOCcxu/9Berg6GoTle9l6p6Sco5f222w/Vd+Kv754PVqlop7AGcDhfCCCY+gvTvH59GDtdr0ayjk5kELBHFHl9ev392eIwcNH5JSzg+G/LfahVIi8BAm7OaBLqiDjZVeBuXIMjSPCJ3q1UQZEiaBZ0tOPxOBIw6tuSmDzb1SkmXtw/nNwu76nFxdvDRrcoKoe5KUXhy9oOnt+jH2UAmC7WbGs2znUFOCFBn4HYVar542lsuIeyPwwUuxHUzDU0oOHhHooJnqxKRFAIHx8YcxmB/ramXmQ0a/JskXg0R+k/9dfpgqwbjO5UQ77JV6PuRoAaB6F8+mF9TOd5WWaZvfwAAAABJRU5ErkJggg==",
+			"className": "light_gray_glazed_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"light_gray_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABbElEQVQ4EQXBwYEUQRADMLl6FuLkSyLkfDtdRsq/v3+6LYARZpwTWt97fZ5Dufe6WyCcxAOTOOdIsLyN977SmnB3nTlyDr1OArb1SLyt7pXWliJIOBm33F3KmZGDWxMm4fcZEUqhBSfjFi1bFPTSlvK0JHEmhOD7XtS7F6Pq1+cB770UGbqeZ8a7K4mW7nrOAAIi3rsSkii0nvOYdmWigITd0ngMu3aXljKJM5GJ7/t61ui9qC2fMw6+d/Vw5rClVdwtSGLO8cA546Lf17vVVhLvrSgzzgQAkcR7r4e6W20l0RZAW5mh17sBmaCejDPj6V4SSbQFvz6P4Of7g5GM54yWuxe877WtZ8tAKom23nsRyeNMJHG3qCQmAbaeiCIlyGBrVRLJkb2665ZBJwh4MiHASdxWPmPe17be90v5sR4jgHMijQdAud+vmzhTChAmfmdAt7ble50zHlDA53EQcRJvS0uiLbuqChm3/Adh0QxpUC0MxwAAAABJRU5ErkJggg==",
+			"className": "light_gray_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"lime_glazed_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAA+0lEQVQoz22SMQrCUBBE9wKWolai4KFs7DyHNlaeIWBrKitPELARrD2CECySA8SXzGfz8w0Mwd2d2b87rh0fy6bM8s9+d52PYnuZgeo2beoCssEmIEWAbBRUv/kEJjDFgGZoTq+VQF5fNWoFdUFrE88HgHR+r2PZiEDZWCOgJA/CDmWGrBfA8C0pgIStVQcC4GX16y3qBK1LEkAlYAbZd3gugEj1fRM7GQT+iMoSSJP43o/kU8WP8NvZA4GQrCGqs4OA2HcQ+18QW2xK+QlohnhuPxlZbBTkOusGQ7t/VGz19nZwTIyArnHcW1uptww0nbfeIZWM4ZP4ef8AzkKf5KKIJ3wAAAAASUVORK5CYII=",
+			"className": "lime_glazed_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"lime_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABlElEQVQ4T1VTW47CMBDLkdi+AnsbdqsmVYsQtChQDp8dzyNlP6yQktie8cSFR5P7tS4Ia5Nj8nnejnmitX/UeX75PBEC/f97/2L0BOwdCID5dRSkIxGc8oDvICSCmBomGJ9EuNTZ7vRC0OUzqdqFfqlIoeIV+yl1OXyCzsetY9KYquwifQQ7VrFYiUX6PT9autAWxZAa3bfsLKxKwDWSPahh/3OTGgdgEasXKg+ISmaCblb1kRoGewN9xCE52BZEJTdI33x2UEVzohKEkkZLJfh9z6otl4t0xiRiTpSbchCEAP9+UnlP/9GH3c3IJF4IwAgHaN5AiSABrIAoeyaCOlaOezsxmTpoy0UGqfOerUvHC6HGecGgEZHjQWF7nVy+S8evdGBYDnyYk9pEOZY4dZBwIWjXTVUOydCw5U3qtQSskVwCcrZaBXVpKL5ftu981cwxxui8DRTInFk0ZuxHsg8iG2fgvB40XnE4vb3MATfJZvx24CQ+Yw3aH4mu09r3d8KP6d9j0YxlQr02cX8rgz1l7dMf0XYRIXf8xs4AAAAASUVORK5CYII=",
+			"className": "lime_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"magenta_glazed_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAA2klEQVQoz4WSMQoCQQxFcyFB8B4WVpaWXshSrCy2FktRbES2sLESPITgAXzwIIzDLAufMJv5P/nJbNzmp/f61S+vxPviQvwe+8/+DDiQB3KMUX5wJ/sw60BqGgI7yIDaTXeAg/q2QBvwtpMNSTKpKfuEd1aysBmj3bLPc/WIsjbXZAHTC86lBnLIxkayyZYCoE81kb6BTYBsa5tPTeTKc/0KNJNXib+1Og/FELilwXfICMNFoVHAZsYFWtI0AvuPdHCG0pKytiDXxUhpqS2o1uJjDc7g713FaugfhFj0qX3MQWAAAAAASUVORK5CYII=",
+			"className": "magenta_glazed_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"magenta_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABmklEQVQ4EQXBgQEDNQwEMJ2TPjAhS7AOu9J+YiPl37//mZ4BUCKr7FV62nuuPz5L4/6u0w0SVsqGSnw+W+Dyit95pUcV57a1lvos+bEqoGdsKW+3OUd69IxGIYlVyx1OD8NaS23cFmNX+PMpfRlXwwxVPlXeHmaAguiDGYYaLLEq1l6evc0w0373mDt6xvPZnrXFMCO1EPuz4r0joZvp6/ksMAIi3tuCpAjT7Xm2uj1SzADB7TEdj6Jbd5tujCxWUVW+v2OP6HOZ0fjsZeE9113xWct7hxk9OCOJhLWXDWuXRn9f58RMS8p5W0Kq7BUTMkiJ+J1jM+4d06MSM00CxkjKzPV7A7KLac8qey+775WEKnMb8efzEfz3/Y8sZdlPjDjnmPD7tZ6xu6kiaUkZ4z3HpKQenyKJ08OMpKzFFO7YETNAQsL0aFdE6pF79LnuUKGFiSR2dkmAKu6l/ih+r+72+37B1/XJEmRYn6iJbcYIQ39/TmL3YpCQkPJXFuhut9t8x9rLJkCY57FRYVe8dwyCwdxrpg1UucP//RIainkyfC0AAAAASUVORK5CYII=",
+			"className": "magenta_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"orange_glazed_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABE0lEQVQoz12SsQ3CQAxFvQSkgMxBRckWNDSsQJuSIdJFSEGCBSLRsgMlEgPQkiLh+77zdSB90Cn2s799Z5+qhOZ17YfTqr9u8A/5l3GAlvc7teg65FgATcNDf15DAIq2fWztvQ89dwYAMlRCtgOpMDvwC5KYCgEmEx3oQTDKMzuiVUkSxswLTwCLKZyPx+wJSE5QmKYZzssLAGwckb4jPA5spSZ0T8/GteS+x9fNF5ryhLG8A5pVq4DEsDkO6BCWEOCIMh1V06254aqcHY4QGZPjvxGR6n1SeQKQA/gJiAeSgFj35P4HgBm4z8vrBiCun4zfNIH8FSBGu8XlkjNcQNwfs5mRjyhGTzh2rDVrPjEqz4Qvek+KSyxS0ioAAAAASUVORK5CYII=",
+			"className": "orange_glazed_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"orange_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABlklEQVQ4EQXBgWElNQwFwJHsTY5CqIgG6ZLke63HTP37z99JAqCU7raelhvnvr6eLeE9r8kASlfZsIq1H13F5aR8Pr8qVHHvtda2nmUOu4AbNuU3sd+jQpBQBey1zHBnGLpafRXnWsVeXXZvc4eMN0SU8lS7N0a4KFrJJ2DCTmJrtZZ0ecLvOYJPLlXgz9cDznkNupqM/azl3Ku63BvJ+FoLUADOe1WV6taJSXw/j74ZtUoCFG5CymORcTMmIVFdVpfV5eccO1reY0Lw7AXOe/Uuy+YdIxLyDkV12XvZ0Gsjznmd9wI456oq3e3pRlAo3e18js2YGzejqwAAtDJz3QusvRCNtbede1GqWjKEP9+PqvLf7w+1rFr2bjPc96Xi3OuGfYfV0bhQnPNSrWpbq3SX9w6hunWTFHdsxQ1VrGIgcXNB95e+x32vQWEFaYq9etEBXcvMqL2tz8cNv78/Gh/XY1mQsr5L37YlJhi8v6aLiQ6gyih/9UJkxk34ubLZg05RzNejsarsamZMoqskYcZNBLrM8D9CeRkEUcYAMAAAAABJRU5ErkJggg==",
+			"className": "orange_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"pink_glazed_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAwUlEQVQoz3VSwQ3CMAz0sgzAHDx4lhVA4hUQ7NA/EnPAAJxzqe26RnKtxLmzr5fI83G9tTPy9z4jPocL8nt/eu2OjFjBQiLaqgSl4KkS4h7ZQVMbzGWBU6nRU+McH9UrKqlEE6d5wdkfCr6kxBsT3fms6D9Ec0olY9uPlJB6l0oslOB6giext/Ep3gmlku00Wen5o8ScHC6t7rXqHX0XP46ehlHpliR7v76mhMarc1uNg4oVE1oJW5f4qq1INB814gfhATvTFimXHwAAAABJRU5ErkJggg==",
+			"className": "pink_glazed_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"pink_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABpElEQVQ4y1VT7XKDMAzL63WQD8LerteSS4B1T+lZckK7HzoI2LJsK674INvsL5Q5SIuLnDnLviyyea/vi+yKou/Pr4nYpolnB4KqQMIPkLISrFJCYEAJXloKcgzCaWZ87YVdCVHuehgJCHgq8MR5T0lqVPQn4ltOWgRKZ3FNf0Bei1HqbMkPSFT2U4OrAioJTar9W/UoAAJNhPRjyawGwsfokTCpL40BWjAy5HEGSMZhTwvlFVWBIOCqBtka03oBSw4s7FAVw2mDwNs2qldlIbMtbqdXRbuHxu/JiilB5kRHIgkVfF+SnBo85vCpBooBElCBAr3TF9xAuAB1IDqyPW3lK8kcWEaFra9vSGYr+Bf8RcZ1Kl5rpjcc1sHJaqARvCdepi/uHoPDwM6+hRo/jIQEHMZ68NGC1DQ6SEhGMpSOLaCVvc/GYc+XPDrS/5v8a/2W35Qul2LytRsKw3QmMRK8MHiumU4bdgbhfb7ZTLpPjtWUOQ4JOwXj7cabRjUfKviP643Wu5LjP9bNy8TLgp6TkaFfOhTmogPfdwX2hs15IzXnDznsPf714rSBAAAAAElFTkSuQmCC",
+			"className": "pink_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"purple_glazed_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAA8UlEQVQoz12SOwpCMRBFZyPqBqweKi7EykYQN2OhjSAWVq7Cyt5duBSPnHAND4aQz7kzk9zUcXieF6/H5jOfDwZzlxwRh9k9RyzL3WgYWUYAHY1kcQbtoqdFkzjVyqzX1dsiKcXxsFwzYWQOAL2f3arve5QeNPR2coJugnQVDZwa0J7+CdLG6NL2Q+ymFzj0Jq2gdpKC2Q/tWEH7V+/vg4CWaIxSfx/6K+YNFEATVmiCeKkg3ccEBDGxYpA04S0ZOfL5pZugv4C0BtnJiG5OWzde2gBN+45ukgigGdfTZjK3waZimQodg/J//WC+jzYz+QLLPjaDx1DMLQAAAABJRU5ErkJggg==",
+			"className": "purple_glazed_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"purple_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABo0lEQVQ4EQXBgZUkNQwFwPqyew8ecZECoZA6N9O2RFX+/fufudMAlpJV9ioz43NefzyPGc55ndsgiVWxYSWe/RA0Z8rnfNSMFU5fq5baW+ZYCbgztsRnRt9XzbgzZkiQ2LWc4XQzrFqycds2doq/st1u09cMBokn5e1hAAXMwQzYhoRVRQi+31eGz72kjPHnzw94zzFDapm+9q5yuiXRTff1szcYAPHeS1CRYXo8+1EzLRUDqHC6zfBYdLvdpocZK2VV1IrP+9qt9DkYd/i1l43PufaOZz3cyzDDuVcSSey9bdh7u8Z8Xt/bZlpSvqeVkVV2YowIQsp7vjbj3NYzUsw0AmaGiunjMwG1CvwUe22775GUSrnTTPz560fw3/c3WZLlVxUT5x6T8f22O2PfZtVISMoY7zkmUXk8VYTbYzQVO0WFe+0kGjUUFNPtIonUo+7rvdcdgllhIoldqyTAynKm1bP4ft1p3+9vho+2lUIm1k/JjW3GJDT3/Thhr2EgKCr+qCXo285c87vtvWzCIMyvx0aJlSUzZkYSZvS9egaoOMP/wvYjD0JM3CEAAAAASUVORK5CYII=",
+			"className": "purple_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"red_glazed_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAA60lEQVQoz2WROwoCQRBE5ybKIhoImhuKmYmRp/EGgmDoDQwNvYMoeCOfvKVsFXqX/lRNTde0w3C4Hwz414Q4dd1lNiYe6xVxno4sW4XWvwHiud1AuM4nchqfs5xBkKOgDoRwvggktvynL0EO0erAlnFbLrweeUYkLSv+EIhsAg1AryCa8yiyA7eidA3QsaG/UtDsmtXhoMnox4MWpx2AEGQfjh6E06hVkFOfKU0DWK+QW8WQSojLH1sdVx067h0Fy7et9+MunDyzfNXSoQT8Jsipbyw67nm2yEZh9v9w2mWec3tb/zmgFaxo4gWnBiaoo8dV2wAAAABJRU5ErkJggg==",
+			"className": "red_glazed_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"red_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABl0lEQVQ4EQXBgaHcNgwFMDxKvp8ukwkyY9dtzrbIAvvfP79nBoCgVlmrzIznPT57GbzPcfqAJCplQ8K1twjNK+73libF6aNqW1fpe1QFzLAlnh5zXmlmRqMgsau8Q08z1Cprh9PG2Cuxr9LdWmvMDFWuiqeHGaAgzjvMMOwxlqKWSqzh7/2YafeBIvy6NnjOq4eq0mfsXcvbRxKnx3T7uRZoAfD0EZGUyugen2vbPS0V00DEaSI+tdz9GNFhFakSBN/nsUc578swuHaB52292rW25zQzzuC0CknsvWzYe2nj/r68mCHxPC2hqqxVxoggknK/j017z5geK2GGBIBETzsPkF0YP8Ve2z7nqERXzBnEr2tL4r/vX3JZYn3KDOe8OnzvNsOeji4q4yTgOa9OSW1XRRKnmyEpu1DxnrZhhkaC0D1Gg6ot53G/rWckRJiosLNLZUClvN3Wz+Xct2m+3y/G7biyxaihrqgu24yGwfN1EnoYJAQp/2RhnOb06O+xNxsIoT+XhZVYKW+3NkqM0afNjEGqvMP/JIsZ4BY+9IwAAAAASUVORK5CYII=",
+			"className": "red_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB7klEQVQ4T01T2XKCQBDc78qheCFS5i2JBxTggfmanAqIgMmfTqZ7xfKhax3Z6enpmTVZ0Jf9wrkiW/SliFyp04mcVmPZB47U27GcNmPJlo58vz4QP7NHxgYEedCTejORZutLE/tKMJVD2OOFLHSkiPtSbT0p1678zLu8D6CgycKhfCx714T9vCPfsw5PxKdkJHmkuJy4f0xHcox6Wqgj5hiPKK+IhpIvukz+en0kex0OJFdAJRH1GRNBVwsoARKbjSfV2mM1EH6+2B4PwNxKPW8nRBFaMuTRAyQjKBOX8g6qApeAazUF7oAcYLKSINegKswpYktAH7RivhxIE3psi9PRhGM0YLvVypUytsVMmXh0tE0EIcDf65HU6/HVh1s1UAyQAPMulBXmHXQimABOgP2qOhBVG3ty5OmUZAYs+NEmElqdMVpB9dDGAMepOO8mSuiLwTjorPbP5Jl1/Df1dQL3nD2Ma1KPlWludLNISECAD21Ve0mXJhhSMpKhtJ0CWkHbbAFzbnulmSq3dR7/n3dP8qeSYTLWGM5TwcVMg0pFMiT4YHQ85c7nprXrDML3xZ315LIn1Ztr94AmaRI8KJ7v+NKo5mb+3H+Vjtmzd11hfMe4+Zj4WNAziKAgsexcLpWJs30rWG+sOV+k5vwDhUU1TDhCRsgAAAAASUVORK5CYII=",
+			"className": "terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"white_glazed_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAA+0lEQVQoz21SMQ7CMAz0X/gFEiMLE1NXnsEbeA8T4gGsSEiAUOkEOyod6FK45NIjNUhWaJy7s33GuvOE0b47hK7MjFa78fqCs2lqvlp4K4uuWpDgYro8fNEREwk9Gh/kE8EK++MpPZHgJMMDCpYFvgGlPJLhjE2acFJl4Ip+knyE9i3FHzcGtfNZpWJiK0vobHPFqfpEI5MIocWs7/m2gptoydVE0iQsDWTpvQisiSTKmtOg8TgRHIBoZkIF3hn0JA9CyUwEVv+FOrRaMDWa1twvPreV4yXC38VpHmcG3LPBPzTzm7Zy2QhAYdHreR/Y6pwFAjjtsX7cAP4AE21cA4uMlXEAAAAASUVORK5CYII=",
+			"className": "white_glazed_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"white_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABeUlEQVQ4T1VTQY6DMAzM/x/RklL1tLsINaLaR7QoId3vZD1jO9DDiAD2eMZ2Qp5jW6ehI0+xlfvY6uPatjS2dR7kPLZtGVuW8/pz7sB7AEER1OXKpJquQnBr+I4AoKTYSVCkWA7OQnBpTwZrwjpZhUkrbOkihAJ7Ir48cIbScwv4AWYGTSrxRQKRbpWy4x579UJ1IJDEKgQAqwle3+YRmFTqW+wBTqhqxEK16mgY5OWDxw+4jW4lsmjY3IITzENvVJ1HtYXpkCQytiZVi2IBlUtvoDYN4HlRe132Qc1GklEJSCJ4cbbRJrA3D/+8TwqM/EaygwJNVAzNF8zV7WTaBzQURAHj0KCL7cDe8TydevOwSEgo1ou+SEhwb8eqvjSU/HCbRrbYOyxgzl2eyT12/i1e/9I+HY7ZF0qKhON8eWHw5MIMfZ1B+BQ7VOcj/tWGBlZNtuNfJ7tl8UMF/9l46V1WuNjIeZmoAp6TYrOxcbmocL8r2a6yW/gHG74kM4NK97EAAAAASUVORK5CYII=",
+			"className": "white_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"yellow_glazed_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABHklEQVQoz22SMU7DQBBF9wKUOQLHoKVKQUWbE9CmosotKNJRRSBBgy+QQ6TKCaLIivvAm33OeEUifdnrmf9n/s64nHcPp6/Z72Ed6LvAYW2EFOBw3Nx9vj69L+egJJsDieHnPj/HKlUA3l4eQ3CdbksIXfQfoQlBVtXApBm2mlSDABS/0/F5v4AXkeMGG6NSzX4BobQeZIPoWWUi20Io/z1c2HTQLSk984wObQFCyc44EbzpCjSW6gZSzOBTE4Jh6yqKkzGX3a03aapV2DHWSdB3Om4nIymfNxanJjxUDTxAK68XdyDHOto/atL0HSW/V8+25RAdeCHI/Y/3ZqYX3/5INPFKRX/tP+PVnQkp2BQFLr54FTUuX5lx4Fk2sj+V0AOAvwXiDgAAAABJRU5ErkJggg==",
+			"className": "yellow_glazed_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		},
+		"yellow_terracotta": {
+			"arm": null,
+			"textures": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABnElEQVQ4EQXBgYFjNRQEMI3thKUOWqUpOrtNvt8g5b9//2lbABHZyznRqe9zvV9b8XyumQHCynJgJc5ri3D5iu/3y1QWzx1nb/u1zaf2WmBaR+Iz1ecy1VYRJHHWcsszQ1l7ywtPLbVW+Pu9JBFVTEvitZY7dKq3qoJ+6YxeTrFEVjSkfD6PdnzvYGvq533A57lasjZ3nNdevnesxB3M9XptQEDE544gCaFT7/exZsZaMQWImTLxsphrZnQK1o6zYq/4fL5OLfNcbRWvs8D3GbM5+3hutdVynxJWYp/jwD7LxfP7lSfakSzPt6SyltcOQZFIlu/3cah7q1M70Q4JqFpZ2uv7DcgJrffhnO3MfchihQvx8z4kfv/8IcuynL+Wlue5hM/vNa0zE2uRlCxVn+eSsF7Oiqy4t9pKYu/owq0T0QIJghkjItZ+yfP1eca0VqhFQzg5IcBe8dxaP5vfj5n6/fMr6uN65YhSzjsycZRCub+/JoupFAmJZvnJFszUzHj+jH22UwRC328LO7HX9r1VFVHVe7VVWNst/wNrkyZMsPR95AAAAABJRU5ErkJggg==",
+			"className": "yellow_terracotta",
+			"constructor": "default",
+			"extends": "Block",
+			"light": false,
+			"transparent": false
+		}
+	}
+}
